@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "programming",
-      "name": "البرمجة",
+      "name": "برمجة",
       "channels": [
         {
           "id": "DroosOnline",
@@ -14,6 +14,13 @@
             {
               "id": "droos-podcast-course",
               "title": "كورسات بودكاست دروس أونلاين",
+              "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVzdHxlbnwwfHwwfHx8MA%3D%3D",
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
+            },
+            {
+              "id": "droos2-podcast2-course",
+              "title": "بودكاست فايق و رايق",
+              "image": "https://plus.unsplash.com/premium_photo-1664195074951-fe91ec456eed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9kY2FzdHxlbnwwfHwwfHx8MA%3D%3D",
               "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
             }
           ]
@@ -23,18 +30,19 @@
 
     {
       "id": "design",
-      "name": "التصميم",
+      "name": "جرافيك",
       "channels": [
         {
           "id": "Studio77eg",
           "name": "فايق و رايق",
           "image": "https://yt3.googleusercontent.com/-dMDEPiOXTx0G4OhR3rHnRqYVemqKZlDdJgKeKcxHjDVpKV_Cp6pMXnZZp-K3gBWfQciFPXJHIs=s160-c-k-c0x00ffffff-no-rj",
           "channelUrl": "https://www.youtube.com/@Studio77eg",
-          "description": "قناة تقدم كورسات وفيديوهات تعليمية متنوعة في البرمجة والعمل الحر والتطوير الذاتي.",
+          "description": "قناة تقدم كورسات وفيديوهات تعليمية متنوعة 222.",
           "courses": [
             {
               "id": "studio77eg-course",
               "title": "بودكاست فايق و رايق",
+              "image": "https://plus.unsplash.com/premium_photo-1664195074951-fe91ec456eed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9kY2FzdHxlbnwwfHwwfHx8MA%3D%3D",
               "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/design/Studio77eg/studio77eg-course/courses.json"
             }
           ]
@@ -43,6 +51,7 @@
     }
   ]
 }
+
 
 
 
