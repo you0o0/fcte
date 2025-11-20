@@ -19,6 +19,28 @@
           ]
         }
       ]
+    },
+
+    {
+      "id": "design",
+      "name": "التصميم",
+      "channels": [
+        {
+          "id": "Studio77eg",
+          "name": "فايق و رايق",
+          "image": "https://yt3.googleusercontent.com/-dMDEPiOXTx0G4OhR3rHnRqYVemqKZlDdJgKeKcxHjDVpKV_Cp6pMXnZZp-K3gBWfQciFPXJHIs=s160-c-k-c0x00ffffff-no-rj",
+          "channelUrl": "https://www.youtube.com/@Studio77eg",
+          "description": "قناة تقدم كورسات وفيديوهات تعليمية متنوعة في البرمجة والعمل الحر والتطوير الذاتي.",
+          "courses": [
+            {
+              "id": "studio77eg-course",
+              "title": "بودكاست فايق و رايق",
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/design/Studio77eg/courses.json"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
+
