@@ -35,7 +35,7 @@
             {
               "id": "studio77eg-course",
               "title": "بودكاست فايق و رايق",
-              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/design/Studio77eg/courses.json"
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/design/Studio77eg/studio77eg-course/courses.json"
             }
           ]
         }
@@ -43,6 +43,7 @@
     }
   ]
 }
+
 
 
 
