@@ -14,7 +14,7 @@
             {
               "id": "droos-podcast-course",
               "title": "كورسات بودكاست دروس أونلاين",
-              "courseJson": "https://raw.githubusercontent.com/you0o0/repo/main/data/categories/programming/DroosOnline/droos-podcast-course/course.json"
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
             }
           ]
         }
