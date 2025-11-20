@@ -8,7 +8,7 @@
           "courses": [
             {
               "id": "droos-podcast-course",
-              "playlistId": "PLxxxxxxx",
+              "playlistId": "PL5isa5XjlZ5pH8vT0TJO9qZrRiZcrWuDp",
               "courseJson": "data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
             }
           ]
@@ -23,7 +23,7 @@
           "courses": [
             {
               "id": "studio77eg-course",
-              "playlistId": "PLyyyyyyy",
+              "playlistId": "PLsx8vChaZTAtAocagiocoTac4IjtAQjF4",
               "courseJson": "data/categories/design/Studio77eg/studio77eg-course/courses.json"
             }
           ]
