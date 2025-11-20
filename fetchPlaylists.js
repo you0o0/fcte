@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { google } from "googleapis";
 
-const apiKey = process.env.AIzaSyCsW2IZGQlMdL96U13BBLv5kgZPLIC-hX0;
+const apiKey = process.env.YOUTUBE_API_KEY;
 const youtube = google.youtube({ version: "v3", auth: apiKey });
 
 // جلب كل الفيديوهات من بلايليست (مع pagination)
