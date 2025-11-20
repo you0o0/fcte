@@ -20,20 +20,20 @@ async function fetchPlaylistVideos(playlistId) {
 
     const items = res.data.items || [];
     videos.push(
-      ...items.map((item, index) => ({
+      ...items.map((item) => ({
         id: item.snippet.resourceId.videoId,
         title: item.snippet.title,
         thumbnailUrl: item.snippet.thumbnails.high.url,
         uploadedTime: item.snippet.publishedAt.split("T")[0],
         url: `https://www.youtube.com/watch?v=${item.snippet.resourceId.videoId}`,
-        order: videos.length + index + 1,
+        duration: "", // مؤقتًا
       }))
     );
 
     nextPageToken = res.data.nextPageToken;
   } while (nextPageToken);
 
-  // لجلب مدة كل فيديو
+  // ⬅ جلب مدة كل فيديو
   const videoIds = videos.map(v => v.id);
   for (let i = 0; i < videoIds.length; i += 50) {
     const chunk = videoIds.slice(i, i + 50);
@@ -46,6 +46,15 @@ async function fetchPlaylistVideos(playlistId) {
       videos[i + idx].duration = video.contentDetails.duration; // ISO 8601 duration
     });
   }
+
+  // ⬅ الترتيب من القديم إلى الجديد
+  videos.sort((a, b) => new Date(a.uploadedTime) - new Date(b.uploadedTime));
+
+  // ⬅ إعادة حساب order بعد الترتيب
+  videos = videos.map((v, index) => ({
+    ...v,
+    order: index + 1,
+  }));
 
   return videos;
 }
