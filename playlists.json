@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "channels": [
+        {
+          "id": "DroosOnline",
+          "courses": [
+            {
+              "id": "droos-podcast-course",
+              "playlistId": "PLxxxxxxx",
+              "courseJson": "data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "channels": [
+        {
+          "id": "Studio77eg",
+          "courses": [
+            {
+              "id": "studio77eg-course",
+              "playlistId": "PLyyyyyyy",
+              "courseJson": "data/categories/design/Studio77eg/studio77eg-course/courses.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
