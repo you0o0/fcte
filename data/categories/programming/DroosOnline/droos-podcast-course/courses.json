@@ -439,4 +439,32 @@
       "order": 48
     }
   ]
+
+    "id": "Pod",
+  "title": "البودكاست",
+  "description": "هذه القناه مهتمه بتعليم اللغه الانجليزية و  الجرافيك  و نصائح في اي مجال او تعليم كيفية عمل اي شئ- الى حد ما - ...ببساطه هذه قناة للتعلم..\n موقعنا DroosOnline.com",
+  "instructor": "دروس أونلاين",
+  "category": "Programming",
+  "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_nwE4n9vyXfAvno2VZ8TXieaSUQZJhlKpbp8IzWc0RX_50=s900-c-k-c0x00ffffff-no-rj",
+  "videos": [
+    {
+      "id": "Tnt4NJcPMfM",
+      "title": "بودكاست مع احمددسوقي: لم يحضر يومًا في الكلية ويعمل الأن في بنك مرموق، كيف؟",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Tnt4NJcPMfM/maxresdefault.jpg",
+      "duration": "1:21:50",
+      "uploadedTime": "2020-08-28",
+      "url": "https://www.youtube.com/watch?v=Tnt4NJcPMfM",
+      "order": 1
+    },
+    {
+      "id": "j1nxd_wQFXM",
+      "title": "الرحلة من الهندسة للعمل الحر والموشن جرافيك مع (صهيب الدسوقي)؟",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j1nxd_wQFXM/maxresdefault.jpg",
+      "duration": "45:16",
+      "uploadedTime": "2020-10-02",
+      "url": "https://www.youtube.com/watch?v=j1nxd_wQFXM",
+      "order": 2
+    }
+  ]
+
 }
