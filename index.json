@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": "programming",
+      "name": "البرمجة",
+      "channels": [
+        {
+          "id": "DroosOnline",
+          "name": "دروس أونلاين",
+          "image": "https://yt3.googleusercontent.com/ytc/AIdro_nwE4n9vyXfAvno2VZ8TXieaSUQZJhlKpbp8IzWc0RX_50=s900-c-k-c0x00ffffff-no-rj",
+          "channelUrl": "https://www.youtube.com/@DroosOnline4u",
+          "description": "قناة تقدم كورسات وفيديوهات تعليمية متنوعة في البرمجة والعمل الحر والتطوير الذاتي.",
+          "courses": [
+            {
+              "id": "droos-podcast-course",
+              "title": "كورسات بودكاست دروس أونلاين",
+              "courseJson": "https://raw.githubusercontent.com/you0o0/repo/main/data/categories/programming/DroosOnline/droos-podcast-course/course.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
