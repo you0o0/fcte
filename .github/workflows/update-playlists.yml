@@ -1,0 +1,33 @@
+name: Update Playlists
+
+on:
+  schedule:
+    - cron: '0 */8 * * *' # كل 8 ساعات
+  workflow_dispatch:
+
+jobs:
+  fetch-playlists:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install googleapis
+
+      - name: Fetch playlists
+        run: node fetchPlaylists.js
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Commit & Push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add data/
+          git commit -m "Update courses from playlists" || echo "No changes"
+          git push
