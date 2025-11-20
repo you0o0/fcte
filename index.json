@@ -14,7 +14,7 @@
             {
               "id": "droos-podcast-course",
               "title": "كورسات بودكاست دروس أونلاين",
-              "courseJson": "data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/programming/DroosOnline/droos-podcast-course/courses.json"
             }
           ]
         }
@@ -35,7 +35,7 @@
             {
               "id": "studio77eg-course",
               "title": "بودكاست فايق و رايق",
-              "courseJson": "data/categories/design/Studio77eg/courses.json"
+              "courseJson": "https://raw.githubusercontent.com/you0o0/fcte/refs/heads/main/data/categories/design/Studio77eg/courses.json"
             }
           ]
         }
@@ -43,5 +43,6 @@
     }
   ]
 }
+
 
 
